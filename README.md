@@ -17,7 +17,7 @@ That's this file, where you can tell people what your cool website does and how 
 
 ### ← index.html
 
-Where you'll write the content of your website. 
+Where you'll write the content of your website.
 
 ### ← style.css
 
