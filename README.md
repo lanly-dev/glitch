@@ -1,37 +1,18 @@
-Welcome to Glitch
-=================
+# Create API endpoints with Express
+This projects implements a simple RESTful API that processes HTTP requests.
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+It makes use of [Express.js](http://expressjs.com/), a minimal and flexible Node.js framework that includes a myriad of HTTP utility methods for quickly creating robust APIs. We also use the [Body Parser](https://github.com/expressjs/body-parser) package, which is Node.js middleware that allows us to process any POST requests we receive.
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+## Getting Started
+To test this project:
 
-Find out more [about Glitch](https://glitch.com/about).
+### With curl
+curl -H "Content-Type: application/json" -X POST -d '{"username":"test","data":"1234"}' http://rest-api.glitch.me/update
 
+### In a web browser
+In a new tab, go to: https://rest-api.glitch.me/update?username=testUser&data=1234
 
-Your Project
-------------
+Keep this project open and view 'Logs' to see the console output.
 
-### ← README.md
-
-That's this file, where you can tell people what your cool website does and how you built it.
-
-### ← index.html
-
-Where you'll write the content of your website.
-
-### ← style.css
-
-CSS files add styling rules to your content.
-
-### ← script.js
-
-If you're feeling fancy you can add interactivity to your site with JavaScript.
-
-### ← assets
-
-Drag in `assets`, like images or music, to add them to your project
-
-Made by [Glitch](https://glitch.com/)
--------------------
-
-\ ゜o゜)ノ
+## Getting Help
+You can see other example projects on our [Community Projects](https://glitch.com/) page. And if you get stuck, let us know on the [forum](http://support.glitch.com/) and we can help you out.
